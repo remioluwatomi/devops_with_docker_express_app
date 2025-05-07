@@ -8,7 +8,8 @@ app.get('/', (req, res) => {
 app.get("/test", (req, res)=> {
   res.json({
     "devops_with_docker": "true",
-    "name": "tomi"
+    "name": "tomi",
+    "testing_watchtower": "true"
   })
 })
 
