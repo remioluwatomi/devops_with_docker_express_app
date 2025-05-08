@@ -1,6 +1,6 @@
 ## express app
 
-This project demonstrates how to containerize a simple Express.js app, set up automatic Docker builds with GitHub Actions, and use Watchtower to auto-deploy updates.
+This project containerize an Express.js app, set up automatic Docker builds with GitHub Actions, and use Watchtower to auto-deploy updates.
 
 ---
 
@@ -17,7 +17,7 @@ This project demonstrates how to containerize a simple Express.js app, set up au
 
 - `Dockerfile` – Container definition for the Express app
 - `docker-compose.yml` – Multi-container setup with Watchtower
-- `.github/workflows/docker.yml` – GitHub Actions workflow for CI/CD
+- `.github/workflows/main.yml` – GitHub Actions workflow for CI/CD
 
 ---
 
