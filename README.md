@@ -4,7 +4,7 @@ This project containerize an Express.js app, set up automatic Docker builds with
 
 ---
 
-## 🚀 Features
+## Features
 
 - Dockerized Express.js application
 - CI/CD pipeline using GitHub Actions
@@ -13,7 +13,7 @@ This project containerize an Express.js app, set up automatic Docker builds with
 
 ---
 
-## 🛠 Project Structure
+## Project Structure
 
 - `Dockerfile` – Container definition for the Express app
 - `docker-compose.yml` – Multi-container setup with Watchtower
@@ -21,7 +21,7 @@ This project containerize an Express.js app, set up automatic Docker builds with
 
 ---
 
-## 📦 Docker Compose
+## Docker Compose
 
 This Compose file spins up:
 - `express_app` running your app image
